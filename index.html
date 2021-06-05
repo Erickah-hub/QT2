@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>travel landing page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"><img class="logo" src="img/QT2.png" alt="quality travel logo"/></h2>
+            
+  
+
+            <div class="toggle"></div>
+        </header>
+        <video src="explore.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+<div class="text">
+<h2>Never Stop</h2>
+<h3>Exploring The World</h3>
+<p>somos la mejor agencia de viajes donde encontraras los precios mas bajos del mercado</p>
+<a href="#">Explore</a>
+</div>
+<ul class="social">
+    <li>
+  <a href="https://www.facebook.com/qualitytrav3l" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+
+    <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+    <a href="https://www.instagram.com/thequalitytravel" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+</ul>
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    
+
+    </ul>
+</div>
+<script>
+    window.addEventListener('load', () => {
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    });
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
